@@ -7,5 +7,4 @@ This is my personal web page I developed using HTML, JavaScript, CSS and some ad
 
 You can see it [here](https://bndissanayaka.github.io/personal-web-page)
 
-<br>
-<image src="images/reviewApp.PNG">
+
