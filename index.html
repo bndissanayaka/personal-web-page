@@ -2,81 +2,133 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>D.A.B.Nirmani</title>
-    <meta name="description" content="This is Bhagya Dissanayaka's personal web page">
-    <meta name="author" content="D.A.B Nirmani">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/png" href="assets/images/faviconntu.ico" />
+  <meta charset="utf-8">
+  <title>D.A.B.Nirmani</title>
+  <meta name="description" content="This is Bhagya Dissanayaka's personal web page">
+  <meta name="author" content="D.A.B Nirmani">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
-<body background="assets/img/background.jpg">
+<body background="assets/img/background.jpg" class="bckground-img">
+ 
+  <div id="particle-container"></div>
+  <div class="container">
+    <button class="sidebar-toggle">
+      <i class="fas fa-bars"></i>
+    </button>
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h1 id="name">My Portfolio</h1>
+        <button class="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <ul class="links">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="./html/projects.html">Projects</a>
+        </li>
+        <li>
+          <a href="./html/writing.html">Writing</a>
+        </li>
+        <li>
+          <a href="./html/contact.html">Contact</a>
+        </li>
+      </ul>
+      <!-- social media -->
+      <ul class="social-icons">
+        <li>
+          <a href="#">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fab fa-behance"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/bhagyadissanayaka" target="_blank" rel="noopener">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fab fa-sketch"></i>
+          </a>
+        </li>
+      </ul>
+    </aside>
+    <div class="intro">
+      <h1>Hello!</h1>
+      <h2>
+        I am Bhagya Dissanayaka.
+      </h2>
+      <p data-aos="fade-right">
+        <br> I am an aspiring front-end developer with 3+ years of back-end development experience.
+        <br> Creative thinking and attention to detail are my underline strengths. Switching my programming
+        career to front-end development is a long-awaited transition.
+        <br> While my strong skills are JavaScript, HTML and CSS, I have the ability to learn new domains and
+        languages quickly. I am working on my personal projects and in the meantime I am self-learning ReactJS
+        as well.
 
 
-    <div id="particle-container"></div>
-    <div class="container">
-        <div class="intro">
-            <h1>Hello!</h1>
-            <p style="font-weight:500; font-size:2.2em">
-                I am Bhagya Dissanayaka.
-            </p>
-            <p data-aos="fade-right">
-                <br> I am an aspiring front-end developer with 3+ years of back-end development experience.
-                <br> Creative thinking and attention to detail are my underline strengths. Switching my programming career to front-end development is a long-awaited transition.
-                <br> While my strong skills are JavaScript, HTML and CSS, I have the ability to learn new domains and languages quickly. I am working on my personal projects and in the meantime I am self-learning ReactJS as well.
+      </p>
+      <p data-aos="fade-right">
+        <br> Besides programming, I like working out, listening to music and singing, cooking, self-learning and
+        pets.
 
+      </p>
 
-            </p>
-            <p data-aos="fade-right">
-                <br> Besides programming, I like working out, listening to music and singing, cooking, self-learning and pets.
+      <p data-aos="fade-right">
 
-            </p>
-
-            <p data-aos="fade-right">
-
-                <br> If you want to know more about my projects, please visit
-                <a href="https://github.com/bndissanayaka" target="_blank" rel="noopener">here.</a>
-            </p>
-        </div>
-
-        <div class="d-flex justify-content-center" data-aos="zoom-out">
-            <div class="btn-group mt-2 mb-4" role="group" aria-label="actionButtons">
-                <a id="btn-outline1" href="assets/doc/Curriculum Vitae.pdf" target="_blank" rel="noopener" class="d-block btn btn-outline-dark">Download My CV<i class="far fa-id-badge ml-2"></i></a>
-            </div>
-        </div>
-
-        <div class="d-flex justify-content-center" data-aos="fade-up">
-            <div class="social-icons spinned">
-
-                <a class="item github" href="https://bndissanayaka.github.io" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
-                <a class="item" href="mailto:bndissanayaka@gmail.com"><i class="fa fa-envelope"></i></a>
-            </div>
-        </div>
-
-        <footer class="footer">
-            &copy;
-            <script>
-                document.write(new Date().getFullYear());
-            </script> DAB. All rights reserved.<br>
-            <span style="font-size:0.8em">Source code of this site is held on GitHub by <a href="https://github.com/bndissanayaka" target="_blank" rel="noopener">@bndissanayaka</a>.</span><br>
-        </footer>
+        <br> If you want to know more about my projects, please visit
+        <a href="https://github.com/bndissanayaka" target="_blank" rel="noopener">here.</a>
+      </p>
     </div>
 
+    <div class="d-flex justify-content-center" data-aos="zoom-out">
+      <a class="downolad-link" href="assets/doc/Resume.pdf" target="_blank"> Download My CV <i
+          class="far fa-id-badge ml-2"></i></a>
+    </div>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+    <footer class="footer">
+      &copy;
+      <script>
+        document.write(new Date().getFullYear());
+      </script> DAB. All rights reserved.<br>
+      <span style="font-size:0.8em">Source code of this site is held on GitHub by <a
+          href="https://github.com/bndissanayaka" target="_blank" rel="noopener">@bndissanayaka</a>.</span><br>
+    </footer>
+  </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-    <script src="js/particle-script.js"></script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="js/particle-script.js"></script>
+  <script src="js/app.js"></script>
+
 </body>
 
 </html>
