@@ -1,0 +1,33 @@
+
+body {
+    font-family:var(--ff-primary);
+    -webkit-font-smoothing: antialiased;
+    min-height: 80vh;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    color: var(--font-color);
+    
+}
+
+.bckground-img {
+    background-repeat: no-repeat;
+    position:relative;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    border: 2px solid yellow;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 

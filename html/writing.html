@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            My Writings
-        </title>
-    </head>
 
-    <body>
-        <h1>Writings</h1>
-    </body>
+<head>
+    <title>
+        My Writings
+    </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("./nav.html");
+        });
+    </script>
+</head>
+
+<body>
+    <div id="nav-placeholder"></div>
+    <h1>Writings</h1>
+</body>
+
 </html>
